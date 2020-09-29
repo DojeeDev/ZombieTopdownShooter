@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/art_assets/allSprites_default.png" type="Texture" id=1]
+[ext_resource path="res://BloodParticles.gd" type="Script" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 1 )
+region = Rect2( 518, 474, 5, 5 )
+
+[node name="BloodParticles" type="CPUParticles2D"]
+emitting = false
+amount = 5
+lifetime = 3.0
+one_shot = true
+speed_scale = 4.38
+randomness = 0.11
+lifetime_randomness = 0.12
+texture = SubResource( 1 )
+spread = 31.45
+gravity = Vector2( 0, 0 )
+initial_velocity = 64.52
+initial_velocity_random = 0.43
+angular_velocity = 279.65
+angular_velocity_random = 1.0
+damping = 21.51
+script = ExtResource( 2 )

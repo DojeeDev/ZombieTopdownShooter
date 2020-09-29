@@ -1,0 +1,5 @@
+[gd_scene format=2]
+
+[node name="Root_BossFight" type="Node2D"]
+
+[node name="world" type="Node2D" parent="."]
