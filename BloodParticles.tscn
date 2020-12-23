@@ -9,7 +9,7 @@ region = Rect2( 518, 474, 5, 5 )
 
 [node name="BloodParticles" type="CPUParticles2D"]
 emitting = false
-amount = 5
+amount = 10000
 lifetime = 3.0
 one_shot = true
 speed_scale = 4.38

@@ -48,7 +48,6 @@ texture = SubResource( 1 )
 shape = SubResource( 2 )
 
 [node name="PlayerHear" type="Area2D" parent="."]
-visible = false
 collision_layer = 0
 collision_mask = 4
 
